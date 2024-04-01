@@ -3,9 +3,7 @@ import 'package:blacklist_moto/app/routes/app_pages.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
-import 'package:get/get_connect/http/src/utils/utils.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 
 class HomePage extends GetWidget<HomeController> {

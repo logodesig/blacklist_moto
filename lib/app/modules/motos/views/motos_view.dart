@@ -1,12 +1,10 @@
 import 'package:blacklist_moto/app/routes/app_pages.dart';
 import 'package:flutter/material.dart';
-
 import 'package:get/get.dart';
-
 import '../controllers/motos_controller.dart';
 
 class MotosView extends GetView<MotosController> {
-  const MotosView({Key? key}) : super(key: key);
+  const MotosView({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(

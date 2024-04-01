@@ -1,7 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
-import 'package:get/get_connect/http/src/utils/utils.dart';
 
 class MotosController extends GetxController {
   var db = FirebaseFirestore.instance;
@@ -25,7 +24,7 @@ class MotosController extends GetxController {
       if (motosDoc.docs.isNotEmpty) {
         var motosList = <Map<String, dynamic>>[];
         for (var moto in motosDoc.docs) {
-          motosList.add(moto.data() as Map<String, dynamic>);
+          motosList.add(moto.data());
         }
         motos = motosList;
         update();
