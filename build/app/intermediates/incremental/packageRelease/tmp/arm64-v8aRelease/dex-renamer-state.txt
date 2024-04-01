@@ -1,0 +1,4 @@
+#Fri Mar 29 10:44:44 WAT 2024
+base.0=C\:\\Users\\DEV 01\\Documents\\programmes projects\\blacklist_moto\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,4 +1,19 @@
-#Mon Mar 25 16:43:17 WAT 2024
-base.0=C\:\\Users\\DEV 01\\Documents\\programmes projects\\blacklist_moto\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Fri Mar 29 10:42:35 WAT 2024
+base.0=C\:\\Users\\DEV 01\\Documents\\programmes projects\\blacklist_moto\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\DEV 01\\Documents\\programmes projects\\blacklist_moto\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\DEV 01\\Documents\\programmes projects\\blacklist_moto\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.3=C\:\\Users\\DEV 01\\Documents\\programmes projects\\blacklist_moto\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.4=C\:\\Users\\DEV 01\\Documents\\programmes projects\\blacklist_moto\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
+base.5=C\:\\Users\\DEV 01\\Documents\\programmes projects\\blacklist_moto\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
+path.1=0/classes.dex
+path.2=0/classes.dex
+path.3=1/classes.dex
+path.4=7/classes.dex
+path.5=classes2.dex
 renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
+renamed.3=classes4.dex
+renamed.4=classes5.dex
+renamed.5=classes6.dex

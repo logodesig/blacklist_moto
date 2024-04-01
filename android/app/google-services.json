@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "225692606657",
+    "project_id": "blacklist-moto",
+    "storage_bucket": "blacklist-moto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225692606657:android:a67e2b325901094d75f440",
+        "android_client_info": {
+          "package_name": "soshomecameroun.net.blacklist_moto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhrvauu0r5igblk4lqkox-HKUJJy00HTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

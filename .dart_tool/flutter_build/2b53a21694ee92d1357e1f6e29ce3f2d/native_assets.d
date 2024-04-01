@@ -1,0 +1,1 @@
+ C:\\Users\\DEV\ 01\\Documents\\programmes\ projects\\blacklist_moto\\.dart_tool\\flutter_build\\2b53a21694ee92d1357e1f6e29ce3f2d\\native_assets.yaml: 
