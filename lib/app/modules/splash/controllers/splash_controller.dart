@@ -8,6 +8,7 @@ class SplashController extends GetxController {
   var db = FirebaseFirestore.instance;
   @override
   void onInit() async {
+    Future.delayed(100.milliseconds);
     await isUserLogin();
     super.onInit();
   }
@@ -17,9 +18,9 @@ class SplashController extends GetxController {
       if (user != null) {
         await db.collection("users").doc(user.uid).get().then((value) {
           if (value.exists) {
-            Get.toNamed(Routes.HOME);
+            Get.offAllNamed(Routes.HOME);
           } else {
-            Get.toNamed(Routes.LOGIN);
+            Get.offAllNamed(Routes.LOGIN);
           }
         });
         // await userServices.getUser(user.uid).then((value) {

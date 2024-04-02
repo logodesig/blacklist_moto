@@ -37,12 +37,22 @@ class MotosView extends GetView<MotosController> {
                           },
                           subtitle: Text(moto["modelMoto"]),
                           trailing: IconButton(
-                            icon: const Icon(Icons.delete),
+                            icon: Text(moto["uniqueId"]),
                             onPressed: () {
                               // controller.deleteMoto(moto.id);
                             },
                           ),
                         )),
+                    controller.motos.isEmpty
+                        ? const Align(
+                            alignment: Alignment.center,
+                            child: Center(
+                                child: Text(
+                              "Aucune moto trouvée, apuiyez sur le bouton + pour ajouter  une nouvelle moto",
+                              textAlign: TextAlign.center,
+                            )),
+                          )
+                        : const SizedBox.shrink()
                   ],
                 ),
         );

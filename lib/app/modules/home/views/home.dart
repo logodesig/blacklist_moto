@@ -59,7 +59,7 @@ class HomePage extends GetWidget<HomeController> {
               // ),
               BottomNavigationBarItem(
                 icon: Icon(CupertinoIcons.app),
-                label: 'Options',
+                label: 'Menu',
               ),
             ],
             currentIndex: controller.selectedIndex,
@@ -515,7 +515,7 @@ class BlackProfilView extends StatelessWidget {
               const SizedBox(height: 26),
               ProfilItem(
                 icon: LucideIcons.bike,
-                title: "Motos",
+                title: "Ajouter une motos.",
                 onTap: () {
                   // controller.player.stop();
                   Get.toNamed(Routes.MOTOS);

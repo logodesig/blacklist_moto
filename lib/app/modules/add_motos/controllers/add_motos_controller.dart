@@ -12,6 +12,7 @@ class AddMotosController extends GetxController {
   String permiNumber = '';
   String marqueMoto = '';
   String modelMoto = '';
+  String phone = '';
   String chassisNumberMoto = '';
   String registrationNumberMoto = '';
   String ville = '';
